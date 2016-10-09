@@ -1,0 +1,131 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+#bd{background-color:#CCC;}
+#head{position:fixed;
+      width:100%;
+	  height:65px;
+	  background-color:#333;
+	  margin:0px;
+	  top:0px;
+	  }
+
+#head a{font-size:36px;
+        font-family:微软雅黑;
+		color:#FFF;
+		text-decoration:none;}
+#head a:hover{color:#66F;
+              font-size:45px;`
+			  font-family:楷体;}
+#user{float:right;
+	  font-size:24px;
+	  color:#FFF;
+	  margin-top:10px;
+	  margin-right:24px;}
+#user a{float:right;
+	  font-size:24px;
+	  color:#FFF;
+	  margin-top:10px;
+	  margin-right:24px;}
+#user ul{float:right;
+         margin-left:85%;}
+#user ul:hover{z-index:9999;}
+#user a:hover{
+	  font-size:24px;
+	  color:#FFF;
+}
+.dhl{position:fixed;
+     width:90%;
+     height:40px;
+     background-color:rgb(0,204,153);
+	 top:65px;
+	 margin:0px 5%;
+	 text-align:center;
+	 color:#FFF;}
+#sousuo{float:right;
+        margin-right:5px;
+		margin-top:3px;}
+.dhl a{font-size:16px;
+             color:#FFF;
+	         text-decoration:none;
+			 font-weight:bold;
+			 text-align:center;}
+.dhl a:hover{color:#000;}
+.dropdown-menu a{color:#333;
+}
+.dropdown-menu a:hover{background-color:#666;
+                       font-weight:bold;
+					   font-size:24px;
+					   color:#333;}
+#md1{height:105px;}
+#neirong{width:90%;
+         margin:0px 5%;
+}
+
+#newslan{float:right;
+         background-color:#CCC;
+		 height:auto;
+		 width:25%;
+		 margin:0px 5% 20px 70%;
+		 position:fixed;}
+#newslan h2{background-color:#333;
+            font-family:微软雅黑;
+			font-weight:bold;
+			color:#FFF;
+			margin-top:0px;
+			height:40px;}
+.list-unstyled a{
+                 size:12px;
+				 color:#666;
+				 font-weight:bold;
+				 text-decoration:none;}
+.list-unstyled li{height:18px;}
+.list-unstyled a:hover{background-color:#333;
+                       color:#FFF;
+					   text-decoration:none;}
+#wenzhang{float:left;
+          width:70%;
+		  height:auto;
+		  margin-top:0px;
+		  margin-bottom:48px;
+		  }
+#wenzhang h2{background-color:#333;
+            font-family:微软雅黑;
+			font-weight:bold;
+			color:#FFF;
+			margin-top:0px;
+			height:40px;}
+#wenzhang img{width:100%;
+              margin-top:20px;}
+#wenzhang div{width:100%;
+              background-color:#FFF;
+			  margin-top:0px;}
+#wenzhang h3{font-weight:bold;
+             font-size:36px;
+			 font-family:幼圆;
+             color:#333;
+			 margin-top:0px;}
+#wenzhang p{ color:#666;
+			 font-size:24px;
+			 line-height:36px;
+			 margin-top:0px;
+			 font-family:微软雅黑;}
+.upicon{font-size:48px;
+        float:right;
+		position:fixed;
+		margin-top:20%;
+		margin-left:95%;
+		}
+.upicon i{margin-top:24px;
+         margin-right:0px;}
+#foot{text-align:center;
+      font-size:24px;
+	  color:#FFF;
+	  font-family:微软雅黑;
+	  background-color:rgba(51,51,51,0.4);
+	  height:36px;
+	  position:fixed;
+	  width:100%;
+	  bottom:0px;
+}
